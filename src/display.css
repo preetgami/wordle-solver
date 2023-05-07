@@ -81,3 +81,28 @@
     font-size: 15px;
     margin-bottom: 0%;
   }
+  .guess{
+    text-align: center;
+    background-color:#6ca965;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 1%;
+  }
+  .next{
+    text-align: center;
+    background-color:#c8b653;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1%;
+  }
+
+  .fin{
+    text-align: center;
+    background-color:#c8b653;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1%;
+  }
