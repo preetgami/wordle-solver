@@ -1,0 +1,25 @@
+.help{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 2%;
+    font-style: italic;
+    background-color:#f1f1f1;;
+}
+ol {
+    background: #29e015;
+    padding: 20px;
+  }
+
+
+
+  ol li {
+    background:#29e015;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-left: 35px;
+    font-family: Arial,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
