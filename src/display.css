@@ -5,7 +5,14 @@
     font-size: 30px;
     margin-bottom: 2%;
   }
-  
+  .refresh{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 2%;
+    background-color:  rgb(255, 0, 0); 
+  }
   .button{
     display: flex;
     justify-content: center;

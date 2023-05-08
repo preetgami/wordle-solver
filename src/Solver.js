@@ -199,13 +199,20 @@ else{
 function finish(){
 return <div className='fin'>Game over</div>
 }
-
+let error=false
+if (!new_guess){
+  error=true
+}
   return (
+
+
+
 <div>
     <div className='next'>Next Guess</div>
-    <div className='guess'>{}</div>
+    <div className='guess'>{new_guess}</div>
     <div>
-      {found ? finish(): <Displaygrid word={new_guess}/>}
+      {error ? <div className='refresh'>That's impossible! Refresh me please </div> : <Displaygrid word={new_guess}/>}
+      {found && finish()}
               
     </div>
     </div>
