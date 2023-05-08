@@ -1,6 +1,8 @@
 import React, { useState ,useEffect} from 'react';
 import "./box.css";
 import Nextword from './Nextword';
+
+
 function Displaygrid(props) {
   const [colors, setColors] = useState(Array(props.word.length).fill(''));
   const [allSelected, setall]= useState(false);
@@ -24,7 +26,7 @@ function Displaygrid(props) {
         <div className="box" key={i} style={{backgroundColor: "#"+colors[i]}}>
             <span>{word[i].toUpperCase()}</span>
           <select  disabled={allSelected && colors[i] !=="" }data-index={i} onChange={handleColorChange} className='box-container'>
-          <option value="">none</option>
+            <option value="">none</option>
 
             <option value="787c7f" style={{backgroundColor: '#787c7f', color: '#787c7f'}}>Grey</option>
             <option value="6ca965" style={{backgroundColor: '#6ca965', color: '#6ca965'}}>Green</option>

@@ -6,11 +6,8 @@ import "./display.css"
 function Nextword(props) {
     const [showComponents, setShowComponents] = useState(false);
     const [buttonClicked, setButtonClicked] = useState(false);
-    console.log(props.show);
-    console.log(buttonClicked);
-    console.log("here");
+  
 
-    console.log(buttonClicked && props.show);
 
 
 
