@@ -1,10 +1,9 @@
-
-import { useState } from 'react';
-import './App.css';
-import Genfirstword from './Genfirstword';
-import SideDrawer from './SideDrawer';
-import Backdrop from './Backdrop';
-import Help from './Help';
+import { useState } from "react";
+import "./App.css";
+import Genfirstword from "./Genfirstword";
+import SideDrawer from "./SideDrawer";
+import Backdrop from "./Backdrop";
+import Help from "./Help";
 function App() {
   const [drawerIsOpen, setDrawerIsopen] = useState(false);
 
@@ -15,24 +14,19 @@ function App() {
   const closeDrawer = () => {
     setDrawerIsopen(false);
   };
-    return (
-    <div >
+  return (
+    <div>
       {drawerIsOpen && <Backdrop onClick={closeDrawer} />}
-      
-     
-      <div className='disp'>WORLD SOLVER</div>
-      <div className='disp'>
-      <button className="button-help" onClick={openDrawer}>
-         How to use
+      <div className="disp">WORLD SOLVER</div>
+      <div className="disp">
+        <button className="button-help" onClick={openDrawer}>
+          How to use
         </button>
-        </div>
+      </div>
       <SideDrawer show={drawerIsOpen} onClick={closeDrawer}>
-       <Help/>
+        <Help />
       </SideDrawer>
       <Genfirstword />:
-      
-      
-      
     </div>
   );
 }
