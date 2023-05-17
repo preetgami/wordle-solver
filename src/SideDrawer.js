@@ -12,7 +12,7 @@ export default function SideDrawer(props) {
       classNames="slide-in-left"
       mountOnEnter
       unmountOnExit
-    >
+    > 
       <aside className="side-drawer" onClick={props.onClick}>
         {props.children}
       </aside>
