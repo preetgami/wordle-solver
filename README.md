@@ -12,5 +12,9 @@ Front-end built on React
 # How it works
 Narrowing searches based on guesses. With 5 words, the stats show the solution will be achieved within the 6 attempts in most cases.
 
-Potetinal Problems
-Some Words 
+Potetinal Problems when several words share only 1 differing letter. For instance, 
+Dross
+Cross
+Floss
+
+
