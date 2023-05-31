@@ -2,6 +2,7 @@
 Deployemnt- unavailable for now 
 
 Front-end built on React
+
 A simple website to solve the popular wordle game 
 
 # How to use
